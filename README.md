@@ -1,8 +1,6 @@
 # Analysis APP Helm Chart
 A Helm chart for deploying the Automated Analysis demo application on top of OpenShift.
 
-_NOTE_: The Chart will take some time. If everything seems to be up and the application does not work yet, wait a little bit more (or check if the kafka topics have been already created or not)
-
 ## Prerequisites
 Below are prerequisites:
 - Namespace where the APP will be deployed (ie. analysis-demo)
