@@ -1,5 +1,4 @@
 # Analysis APP Helm Chart
-A Helm chart for deploying the Automated Analysis demo application on top of OpenShift.
 
 ## Prerequisites
 Below are prerequisites:
