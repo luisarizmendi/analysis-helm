@@ -1,5 +1,20 @@
 # Analysis APP Helm Chart
 
+## Creating the Helm repo in OpenShift
+
+This Helm chart is part of [my Helm Chart repository](https://github.com/luisarizmendi/helm-chart-repo). If you want to create a repo in OpenShift pointing to these charts, just create this object:
+
+```
+apiVersion: helm.openshift.io/v1beta1
+kind: HelmChartRepository
+metadata:
+  name: larizmen-helm-repo
+spec:
+  name: Luis Arizmendi Helm Charts
+  connectionConfig:
+    url: https://raw.githubusercontent.com/luisarizmendi/helm-chart-repo/master/packages
+```
+
 ## Prerequisites
 Below are prerequisites:
 - Namespace where the APP will be deployed (ie. analysis-demo)
