@@ -21,7 +21,7 @@ Below are prerequisites:
 - PostgreSQL Database
 - Kafka Cluster
 
-This Helm chart is able to deploy (option is not selected by default) a postgres (ephemeral) database server using the Postgres OpenShift template and the Kafka cluster by using the AMQ Streams Operator (which must be installed previously since it's not instaled by this Chart).
+This Helm chart is able to deploy a postgres database server using the Postgres OpenShift template and the Kafka cluster by using the AMQ Streams Operator (which must be installed previously since it's not instaled by this Chart), but be aware that this option is not selected by default.
 
 You can also create those backend services by your own:
 
